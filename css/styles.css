@@ -3,16 +3,16 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
   }
 
 .header {
-    height: 150px;
     background: #1F2937;
     color: white;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    padding: 1px 16px;
+    padding: 1px 20px 20px 20px; /* top, right, bottom, left */
     font-size: 32px;
     font-weight: 900;
     justify-content: space-around;
@@ -34,6 +34,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
+    font-weight: 100; /* Used to remove boldness from header links */
   }
 
   a {
@@ -59,7 +60,6 @@ body {
 
     display: flex;
     align-items: center;
-    gap: 0;
   
   }
 
@@ -72,7 +72,6 @@ body {
     gap: 16px;
     background: #1F2937;
 
-    
 }
 
 .intro-left {
@@ -87,14 +86,14 @@ body {
 
 .intro-right {
 
-    margin: 1px 1px 1px -300px;
+    margin: 1px 1px 1px -330px;
     padding: 1px 16px;
     border: 1px solid grey;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 250px;
-    width: 500px;
+    width: 530px;
     background: grey;
     color: white;
 }
@@ -124,4 +123,57 @@ p {
 
 .placeholder-img {
 
+}
+
+.info1 {
+
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 16px;
+    background: white;
+    padding: 1px 1px 100px 1px; /* top, right, bottom, left */
+}
+
+.info1-header {
+
+    text-align: center;
+}
+
+.info1-container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5em;
+}
+
+.info1-borderbox {
+
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+}
+
+.border-container {
+
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+
+}
+
+.info1-border {
+
+    border-radius: 25px;
+    border: 4px solid #3882F6;
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+.border-subtext {
+
+    text-align: center;
 }
