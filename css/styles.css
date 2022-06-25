@@ -4,7 +4,9 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
-  }
+}
+
+/* ----------- Header Section ------------- */
 
 .header {
     background: #1F2937;
@@ -12,11 +14,11 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    padding: 1px 20px 20px 20px; /* top, right, bottom, left */
+    padding: 10px 20px 20px 20px; /* top, right, bottom, left */
     font-size: 32px;
     font-weight: 900;
     justify-content: space-around;
-  }
+}
 
 .footer {
     height: 100px;
@@ -26,42 +28,50 @@ body {
     align-items: center;
     justify-content: center;
     margin-top: auto;
-  }
+}
 
-  ul {
+ul {
 
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
-    font-weight: 100; /* Used to remove boldness from header links */
   }
 
-  a {
+a {
 
     color: white;
     text-decoration: none;
     font-size: 24px;
-  }
+}
 
   li {
 
     margin: 16px;
-  }
+}
 
 
 .logo {
     color: white;
     font-size: 24px;
     font-weight: 900;
-  }
+}
 
 .left-items, .right-items {
 
     display: flex;
     align-items: center;
   
-  }
+}
+
+.right-items {
+
+    font-size: 18px;
+    font-weight: 100; /* Used to remove boldness from header links */
+    color: #E5E7EB
+}
+
+/* ----------- Introduction Section ------------- */
 
 .intro {
 
@@ -71,6 +81,7 @@ body {
     justify-content: space-around;
     gap: 16px;
     background: #1F2937;
+    padding: 40px 1px 80px 1px;
 
 }
 
@@ -125,6 +136,8 @@ p {
 
 }
 
+/* ----------- Information Section ------------- */
+
 .info1 {
 
     height: 500px;
@@ -139,6 +152,7 @@ p {
 .info1-header {
 
     text-align: center;
+    font-weight: bold;
 }
 
 .info1-container {
@@ -176,4 +190,39 @@ p {
 .border-subtext {
 
     text-align: center;
+}
+
+/* ----------- Quote Section ------------- */
+
+.info2 {
+
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 16px;
+    background-color: #E5E7EB;
+    padding: 50px 1px 50px 1px; /* top, right, bottom, left */
+}
+
+.info2-container {
+
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    max-height: 400px;
+}
+
+.info2-paragraph {
+
+    font-size: 40px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.info2-signature {
+
+    text-align: right;
+    padding-right: 20px;
+    margin-top: auto;
 }
